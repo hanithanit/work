@@ -1,20 +1,18 @@
 //
-//  BodyClockViewController.m
-//  BodyClock
+//  CatalogViewController.m
+//  Catalog
 //
 //  Created by kentaru on 2014/02/13.
 //  Copyright (c) 2014年 hogehoge. All rights reserved.
 //
 
-#import "BodyClockViewController.h"
+#import "CatalogViewController.h"
 
-@interface BodyClockViewController ()
+@interface CatalogViewController ()
 
 @end
 
-@implementation BodyClockViewController
-
-NSInteger test=0;
+@implementation CatalogViewController
 
 - (void)viewDidLoad
 {
@@ -28,4 +26,6 @@ NSInteger test=0;
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)execute:(id)sender {
+}
 @end

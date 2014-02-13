@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0BE8C027-6998-4E2E-9596-3B7442640130</string>
+	<key>IDESourceControlProjectName</key>
+	<string>goods</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>979652D8-8F07-407E-9C1F-AC8BA55FEE9D</key>
+		<string>ssh://github.com/hanithanit/work.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcode/goods/goods.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>979652D8-8F07-407E-9C1F-AC8BA55FEE9D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hanithanit/work.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>979652D8-8F07-407E-9C1F-AC8BA55FEE9D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>979652D8-8F07-407E-9C1F-AC8BA55FEE9D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>git</string>
+		</dict>
+	</array>
+</dict>
+</plist>
