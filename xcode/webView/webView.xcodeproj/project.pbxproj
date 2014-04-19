@@ -21,6 +21,7 @@
 		100970D5190280F500921B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100970B7190280F500921B2E /* UIKit.framework */; };
 		100970DD190280F500921B2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 100970DB190280F500921B2E /* InfoPlist.strings */; };
 		100970DF190280F500921B2E /* webViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100970DE190280F500921B2E /* webViewTests.m */; };
+		100970EA190288E500921B2E /* SecondwebViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100970E9190288E500921B2E /* SecondwebViewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		100970DA190280F500921B2E /* webViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webViewTests-Info.plist"; sourceTree = "<group>"; };
 		100970DC190280F500921B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		100970DE190280F500921B2E /* webViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewTests.m; sourceTree = "<group>"; };
+		100970E8190288E500921B2E /* SecondwebViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondwebViewTableViewController.h; sourceTree = "<group>"; };
+		100970E9190288E500921B2E /* SecondwebViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondwebViewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				100970C5190280F500921B2E /* Main.storyboard */,
 				100970C8190280F500921B2E /* webViewViewController.h */,
 				100970C9190280F500921B2E /* webViewViewController.m */,
+				100970E8190288E500921B2E /* SecondwebViewTableViewController.h */,
+				100970E9190288E500921B2E /* SecondwebViewTableViewController.m */,
 				100970CB190280F500921B2E /* Images.xcassets */,
 				100970BA190280F500921B2E /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100970C4190280F500921B2E /* webViewAppDelegate.m in Sources */,
+				100970EA190288E500921B2E /* SecondwebViewTableViewController.m in Sources */,
 				100970CA190280F500921B2E /* webViewViewController.m in Sources */,
 				100970C0190280F500921B2E /* main.m in Sources */,
 			);
