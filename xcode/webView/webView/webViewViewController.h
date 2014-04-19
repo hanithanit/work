@@ -10,5 +10,6 @@
 
 @interface webViewViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)pushBtn:(id)sender;
 
 @end

@@ -30,4 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushBtn:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:self];
+    
+    
+    //http://www.aoharu-b.com/cgi/sk/2012/10/storyboard.html
+    
+}
 @end
