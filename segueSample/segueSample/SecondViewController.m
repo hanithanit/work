@@ -14,6 +14,9 @@
 
 @implementation SecondViewController
 
+@synthesize myValue = _myValue;
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -49,6 +52,7 @@
 - (IBAction)pushBtn:(id)sender {
    //表示した画面を閉じるhttp://d.hatena.ne.jp/tayutaedomo/20130331/1364750390
     [self dismissViewControllerAnimated:YES completion:nil];
+    NSLog(@"%@",_myValue);
     
     
 }

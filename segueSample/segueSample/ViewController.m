@@ -28,6 +28,14 @@
 - (IBAction)pushBtn:(id)sender {
     //self(自分)がmySegueを使って遷移します
     [self performSegueWithIdentifier:@"mySegue" sender:self];
-    
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"mySegue"]){
+        SecondViewController *viewCon =     segue.destinationViewController;
+        //viewCon.delegate = self;
+        viewCon.myValue = @"test";
+    }
+
 }
 @end

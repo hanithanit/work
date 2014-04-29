@@ -10,6 +10,7 @@
 //http://www.aoharu-b.com/cgi/sk/2012/10/storyboard.html
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
 @interface ViewController : UIViewController
 
