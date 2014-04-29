@@ -18,7 +18,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    //NSString* URL = @"http://yahoo.co.jp";
+
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -31,7 +31,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSURLRequest *req=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://auctions.search.yahoo.co.jp/search?p=test"]];
+    //http://omega999.hatenablog.com/entry/2013/06/16/233131
+    NSString* url = [NSString stringWithFormat:@"http://auctions.search.yahoo.co.jp/search?p=%@",_myValue];
+
+    
+    
+    //NSURL URLWithString:URL;
+    
+    //NSURLRequest *req=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://auctions.search.yahoo.co.jp/search?p=test"]];
+    NSURLRequest *req=[NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     [_SecondwebView loadRequest:req];
 }
 
