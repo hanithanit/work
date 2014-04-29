@@ -35,8 +35,9 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"mySegue"]){
         SecondViewController *viewCon =     segue.destinationViewController;
-        //viewCon.delegate = self;
-        viewCon.myValue = @"test";
+        //viewCon.delegate;
+        viewCon.myValue=self.insertText.text;
+        //viewCon.myValue = @"test";
     }
 
 }

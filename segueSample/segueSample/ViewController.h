@@ -13,6 +13,7 @@
 #import "SecondViewController.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *insertText;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 - (IBAction)pushBtn:(id)sender;
