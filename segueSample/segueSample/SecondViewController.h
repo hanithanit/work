@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController{
+    NSString* _myValue;
+    
+}
+@property (nonatomic) NSString* myValue;
+
 - (IBAction)pushBtn:(id)sender;
 
 @end
